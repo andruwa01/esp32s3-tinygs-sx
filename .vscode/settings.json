@@ -1,0 +1,13 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "sx1276-core.h": "c",
+        "sx1276-spi.h": "c",
+        "i2c.h": "c"
+    }
+}

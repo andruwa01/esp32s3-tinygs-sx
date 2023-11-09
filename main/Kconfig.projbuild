@@ -1,0 +1,101 @@
+# put here your custom config value
+menu "Example Configuration"
+
+	config LED_GPIO
+		int "LED GPIO number"
+		range 0 48
+		default 2
+		help
+			LED GPIO
+		
+	config PIN_NUM_MOSI
+		int "MOSI pin"
+		range 0 48
+		default 23
+		help
+			MOSI pin
+				
+	config PIN_NUM_MISO
+		int "MISO pin"
+		range 0 48
+		default 19
+		help
+			MISO pin
+		
+	config PIN_NUM_CLK
+		int "CLK pin"
+		range 0 48
+		default 18
+		help
+			CLK pin
+	 
+	config PIN_NUM_SX1278_CS
+		int "SX1278 CS pin"
+		range 0 48
+		default 5
+		help
+			SX1278 CS pin	
+			
+	config PIN_NUM_SX1278_NRESET
+		int "SX1278 NRESET pin"
+		range 0 48
+		default 27
+		help
+			SX1278 NRESET pin
+
+#	config PIN_NUM_SX1278_DIO0
+#		int "SX1278 DIO0 pin"
+#		range 0 48
+#		default 0
+#		help
+#			SX1278 DIO0 pin
+
+	config PIN_NUM_SX1278_DIO1
+		int "SX1278 DIO1 pin"
+		range 0 48
+		default 26
+		help
+			SX1278 DIO1 pin
+
+#	config PIN_NUM_SX1278_DIO2
+#		int "SX1278 DIO2 pin"
+#		range 0 48
+#		default 0
+#		help
+#			SX1278 DIO2 pin
+
+
+config	SPI_CLOCK_SPEED
+		int "SX1278 SPI Speed"
+		range 0 80000000
+		default 10000000
+		help
+			SX1278 SPI Speed	
+			
+	menu "I2C definitions"
+	
+		config I2C_SCL_PIN_NUM
+			int "RTC I2C SCL pin"
+			range 0 48
+			default 35
+			help
+				RTC SCL pin number
+			
+		config I2C_SDA_PIN_NUM
+			int "RTC I2C SDA pin"
+			range 0 48
+			default 36
+			help
+				RTC SDA pin number	
+				
+		config	I2C_CLOCK_SPEED
+			int "RTC I2C Speed"
+			range 0 400000
+			default 100000
+			help
+				RTC I2C Speed	
+	endmenu			
+		
+			
+					
+endmenu
