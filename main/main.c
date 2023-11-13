@@ -11,7 +11,6 @@ void rf_data_handler(uint8_t *buff, uint8_t len) {
 
 }
 
-
 void SX1276HalReadBuffer( uint8_t offset, uint8_t *buffer, uint8_t size )
 {
     //uint8_t i;

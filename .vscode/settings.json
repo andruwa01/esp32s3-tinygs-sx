@@ -8,6 +8,15 @@
     "files.associations": {
         "sx1276-core.h": "c",
         "sx1276-spi.h": "c",
-        "i2c.h": "c"
-    }
+        "i2c.h": "c",
+        "time.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "main.h": "c",
+        "gpio.h": "c",
+        "queue.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc-11",
 }
