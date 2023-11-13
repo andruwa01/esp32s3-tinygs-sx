@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "app-template",
-    "project_version":    "41f0088-dirty",
+    "project_version":    "f92291f-dirty",
     "project_path":       "/home/user/Documents/TinyGSProject/esp32s3_tinygs_sx",
     "idf_path":           "/home/user/esp/esp-idf",
     "build_dir":          "/home/user/Documents/TinyGSProject/esp32s3_tinygs_sx/build",

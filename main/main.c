@@ -1,7 +1,6 @@
 #include "main.h"
 #include "sx1276-core.h"
 #include "sx1276-spi.h"
-
 #include "driver/i2c.h"
 #include <time.h>
 
