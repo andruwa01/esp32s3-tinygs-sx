@@ -14,7 +14,12 @@
         "string_view": "c",
         "main.h": "c",
         "gpio.h": "c",
-        "queue.h": "c"
+        "queue.h": "c",
+        "string.h": "c",
+        "stdint.h": "c",
+        "sx1276-hal.h": "c",
+        "sx1276.h": "c",
+        "stdbool.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.intelliSenseEngine": "default",

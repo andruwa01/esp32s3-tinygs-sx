@@ -14,8 +14,6 @@
 -- Check for working CXX compiler: /home/user/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
--- Could not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32s3
 -- Project sdkconfig file /home/user/Documents/TinyGSProject/esp32s3_tinygs_sx/sdkconfig
 -- Looking for sys/types.h
@@ -29,7 +27,7 @@
 -- Found Python3: /home/user/.espressif/python_env/idf5.1_py3.10_env/bin/python (found version "3.10.12") found components: Interpreter 
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
--- App "app-template" version: 1
+-- App "app-template" version: 102f0dd-dirty
 -- Adding linker script /home/user/Documents/TinyGSProject/esp32s3_tinygs_sx/build/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /home/user/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
 -- Adding linker script /home/user/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld

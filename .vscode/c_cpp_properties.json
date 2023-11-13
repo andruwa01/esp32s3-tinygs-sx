@@ -4,7 +4,11 @@
             "name": "ESP-IDF",
             "cStandard": "gnu17",
             "cppStandard": "c++17",
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "compilerPath": "${config:idf.toolsPath}/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc",
+            "includePath": [
+                "${default}"
+            ]
         }
     ],
     "version": 4
